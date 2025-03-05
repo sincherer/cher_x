@@ -3,7 +3,6 @@ import { supabase } from './supabaseClient'
 import './App.css'
 import Auth from './components/Auth'
 import { BrowserRouter as Router, Routes, Route, Link, Navigate } from 'react-router-dom';
-import AIChatInterface from './components/AIChatInterface';
 import Independent from './components/demo';
 import UserProfile from './components/UserProfile';
 import { Layout, Menu } from 'antd';
